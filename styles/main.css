@@ -13,7 +13,7 @@
 
 body {
   background: var(--black);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   
 }
@@ -59,6 +59,8 @@ header nav a:hover {
 .main-movie .description {
   margin-top: 15px;
   margin-bottom: 40px;
+  line-height: 1.6;
+  font-family: "Poppins";
 }
 
 .tittle {
@@ -91,18 +93,24 @@ header nav a:hover {
 }
 
 .main-movie .container {
-  width: 70%;
+  width: 90%;
 }
 
 .movie-box {
   width: 100%;
   height: 100%;
 
+  cursor: pointer;
+
   display: block;
+}
+
+.movie-box:hover {
+  filter: brightness(.5);
 }
 
 
 .movie-carousel {
-  margin-top: 2rem;
+  margin: 2rem 3rem;
   
 }
